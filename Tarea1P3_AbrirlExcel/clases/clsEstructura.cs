@@ -52,6 +52,8 @@ namespace tareaxls.clases
             Marshal.ReleaseComObject(xlWorkBook);
             Marshal.ReleaseComObject(xlApp);
 
+            Console.WriteLine("mensaje");
+
             return todos;
 
         }
